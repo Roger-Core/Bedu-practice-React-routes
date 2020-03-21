@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+nav {
+  background-color: gainsboro;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  flex: 1;
+  padding: 10px 0;
+}
+
+li.Active {
+  background-color: coral;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
